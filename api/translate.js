@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   }
 
   const API_KEY = process.env.YANDEX_API_KEY;
-  const FOLDER_ID = "b1gsgqo46tptp00tha72"; // !!! обязательно подставить
+  const FOLDER_ID = "b1gtd9b5shijhafn7qqv"; // !!! обязательно подставить
 
   const yandexUrl = "https://translate.api.cloud.yandex.net/translate/v2/translate";
 
