@@ -16,6 +16,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Text is required" });
   }
 
+  const API_KEY = process.env.YANDEX_API_KEY;
   const FOLDER_ID = "ajecp0purev344es2dsb"; // !!! обязательно подставить
 
   const yandexUrl = "https://translate.api.cloud.yandex.net/translate/v2/translate";
